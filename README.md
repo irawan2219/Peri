@@ -52,7 +52,6 @@ Sistem ini mendukung 4 level otoritas pengguna:
 - **Sistem Withdrawal**: Penarikan dana otomatis bagi pemilik properti yang terverifikasi admin.
 - **Multi-Photo Galeri**: Setiap tipe kamar dapat memiliki banyak foto.
 - **Integrasi API**:
-  - [Midtrans](https://midtrans.com/) - Payment Gateway untuk pembayaran digital.
   - [Indoregion](https://github.com/azishapidin/indoregion) - Basis data wilayah administratif Indonesia.
 
 ---
@@ -67,15 +66,8 @@ Meskipun fungsional, sistem saat ini memiliki beberapa keterbatasan:
 
 ---
 
-## 👨‍💻 Kontributor
-- [@PaguhEsatrio](https://github.com/PaguhEsatrio)
-- [@valentianoaudy](https://github.com/valentianoaudy)
-
 ---
 
 ## 🙌 Ucapan Terima Kasih
-<p align="left">
-  <img src="https://media.licdn.com/dms/image/v2/C560BAQGyTlT3cNArqA/company-logo_200_200/company-logo_200_200/0/1630647806765?e=2147483647&v=beta&t=-4MLBy1LU9-CfBHUY8t96E-bfh044bgUk7Abj-HS8KM" width="100" alt="Logo Mitra">
-</p>
 
 Terima kasih kepada seluruh pihak yang telah mendukung kelancaran proyek kerja praktek ini.
