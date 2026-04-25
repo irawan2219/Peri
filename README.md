@@ -1,63 +1,81 @@
-# SEWASINI
+# SEWASINI 🏠
+**Platform Digital Pencarian dan Pemesanan Kos/Kontrakan**
 
-SEWASINI adalah Project kerja praktek penyewaan KOS dan Kontrakan dengan Website Dibuat dengan Framework Laravel dengan Bahasa PHP
+SEWASINI adalah proyek kerja praktek sistem informasi berbasis web yang dirancang untuk mempermudah pencari hunian menemukan kos atau kontrakan, serta membantu pemilik properti mengelola penyewaan secara efisien. Proyek ini dibangun menggunakan **Framework Laravel** dan bahasa pemrograman **PHP**.
 
-## Waktu Pengerjaan
+---
 
-Waktu Pengerjaan dari tanggal 15 Januari - 27 April 2026
+## 📅 Waktu Pengerjaan
+Proyek ini dikembangkan dalam kurun waktu:  
+**15 Januari 2026 – 27 April 2026**
 
-## Diagram
+---
 
-- Diagram Class
-![App Screenshot](./img/Diagram.png/)
+## 🏗️ Arsitektur Sistem (Diagram)
 
-- Use Case Diagram
-![App Screenshot](./img/Use.png/)
+### 📊 Diagram Class
+![Class Diagram](./img/Diagram.png)
 
-## User
+### 👤 Use Case Diagram
+![Use Case Diagram](./img/Use.png)
 
-Pada sistem penyewaan kos kosan web memiliki 4 hak akses yaitu:
-- Super Admin
-- Admin
-- Pemilik Kos
-- Pencari Kos
+---
 
-## Tampilan
+## 👥 Hak Akses User
+Sistem ini mendukung 4 level otoritas pengguna:
+1. **Super Admin**: Akses penuh ke seluruh sistem dan manajemen admin.
+2. **Admin**: Verifikasi properti, verifikasi pembayaran, dan pengelolaan laporan.
+3. **Pemilik Kos**: Mengelola data kos, memantau hunian, dan penarikan saldo (Withdrawal).
+4. **Pencari Kos**: Mencari unit, melakukan booking, dan melihat riwayat transaksi.
 
-#### Halaman Awal
-![App Screenshot](./img/home.png/)
+---
 
-#### Halaman Login
-![App Screenshot](./img/login.png/)
+## 📸 Dokumentasi Tampilan
 
-#### Halaman Dashboard
-![App Screenshot](./img/dash.png/)
+<details>
+  <summary>Klik untuk melihat screenshot</summary>
 
+  #### Halaman Awal
+  ![Home Page](./img/home.png)
 
-## Penggunaan API
+  #### Halaman Login
+  ![Login Page](./img/login.png)
 
-- [Midtrans](https://midtrans.com/)
+  #### Halaman Dashboard
+  ![Dashboard Page](./img/dash.png)
+</details>
 
-- [Indoregion](https://github.com/azishapidin/indoregion)
+---
 
-## Kekurangan
-- Pemilik Kos Ataupun Pencari Kos Tidak dapat Mengedit Profil
+## ⚙️ Fitur Utama & Integrasi
+- **Manajemen Finansial**: Fitur bagi hasil (Fee Admin 5%) dan sistem saldo pemilik.
+- **Sistem Withdrawal**: Penarikan dana otomatis bagi pemilik properti yang terverifikasi admin.
+- **Multi-Photo Galeri**: Setiap tipe kamar dapat memiliki banyak foto.
+- **Integrasi API**:
+  - [Midtrans](https://midtrans.com/) - Payment Gateway untuk pembayaran digital.
+  - [Indoregion](https://github.com/azishapidin/indoregion) - Basis data wilayah administratif Indonesia.
 
-- Jika Di satu kos terdapat jenis kamar yang berbeda maka Pemilik Kos harus membuat Kos baru Lagi
+---
 
-- Dalam mencari kos belum bisa mencari secara detail (Filter) 
+## ⚠️ Keterbatasan Sistem
+Meskipun fungsional, sistem saat ini memiliki beberapa keterbatasan:
+- [ ] Pengguna (Pemilik/Pencari) belum dapat mengubah profil secara mandiri.
+- [ ] Struktur input tipe kamar masih kaku (Satu postingan fokus pada satu tipe/unit utama).
+- [ ] Filter pencarian detail (seperti fasilitas spesifik atau range harga) masih dalam pengembangan.
+- [ ] Sinkronisasi otomatis Midtrans ke status database masih memerlukan penyempurnaan (Webhook).
+- [ ] Sistem notifikasi otomatis kepada user belum diimplementasikan.
 
-- Pembayaran yang tersambung ke midtrans, jika pembayaran berhasil status pemesanan tidak berubah otomatis
+---
 
-- Ketika Admin Ingin memberikan Info ke User belum Otomatis 
-
-## Authors
-
+## 👨‍💻 Kontributor
 - [@PaguhEsatrio](https://github.com/PaguhEsatrio)
-
 - [@valentianoaudy](https://github.com/valentianoaudy)
 
-## Thanks To
+---
 
-![Logo](https://media.licdn.com/dms/image/v2/C560BAQGyTlT3cNArqA/company-logo_200_200/company-logo_200_200/0/1630647806765?e=2147483647&v=beta&t=-4MLBy1LU9-CfBHUY8t96E-bfh044bgUk7Abj-HS8KM)
+## 🙌 Ucapan Terima Kasih
+<p align="left">
+  <img src="https://media.licdn.com/dms/image/v2/C560BAQGyTlT3cNArqA/company-logo_200_200/company-logo_200_200/0/1630647806765?e=2147483647&v=beta&t=-4MLBy1LU9-CfBHUY8t96E-bfh044bgUk7Abj-HS8KM" width="100" alt="Logo Mitra">
+</p>
 
+Terima kasih kepada seluruh pihak yang telah mendukung kelancaran proyek kerja praktek ini.
