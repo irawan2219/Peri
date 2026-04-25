@@ -1,10 +1,10 @@
-# Seven Kos
+# SEWASINI
 
-Seven Kos adalah Project kerja praktek penyewaan kos-kosan dengan Website Dibuat dengan Framework Laravel dengan Bahasa PHP
+SEWASINI adalah Project kerja praktek penyewaan KOS dan Kontrakan dengan Website Dibuat dengan Framework Laravel dengan Bahasa PHP
 
 ## Waktu Pengerjaan
 
-Waktu Pengerjaan dari tanggal 27 July - 27 September
+Waktu Pengerjaan dari tanggal 15 Januari - 27 April 2026
 
 ## Diagram
 
